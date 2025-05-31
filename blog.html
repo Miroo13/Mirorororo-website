@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>title bejir lah</title>
+  <link rel="icon" href="stars.png" type="image/png">
+  <style>
+    body {
+      background-color: #007bff;
+      background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre-v2.png");
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      font-size: xx-large;
+      color: azure;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+      font-family: cursive
+    }
+    .blog-title {
+        margin-bottom: 2px; /* atur jarak bawah */
+        line-height: 1.2;
+        font-family: cursive;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+    .blog-date {
+        margin-top: 0; /* hapus jarak atas */
+        line-height: 1;
+        font-size: 0.9em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+    .container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      background-color: #476038;
+      padding: 10px;
+      width: 300px;
+      height: auto;
+      color: white;
+      text-align: center;
+      border-radius: 15px;
+      background: linear-gradient(to bottom, #aac232 0%, #869220 100%);
+      outline: 5px solid #ffffff;
+    }
+
+    .text {
+      font-family: cursive;
+      text-shadow: 1px 1px 2px black;
+      text-decoration-color: aliceblue;
+      font-size: 15px;
+    }
+
+    .stamp-container img {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0px;
+    }
+    .blogslink {
+      font-family: cursive;
+      text-shadow: 1px 1px 2px black;
+      text-decoration-color: aliceblue;
+      font-size: 15px;
+      text-align: right;
+    }
+
+    img.logo {
+      width: 500px;
+      height: auto;
+    }
+
+    .box-large {
+      width: 700px;
+      text-align: left;
+    }
+
+    .box img {
+      width: 200px;
+      float: left;
+      border-radius: 15px;
+      margin-right: 10px;
+    }
+
+    .box-below {
+      width: 500px;
+      text-align: center;
+      background: linear-gradient(to bottom, #aac232 0%, #9caa26 100%);
+      padding: 20px;
+      border-radius: 15px;
+      outline: 5px solid white;
+    }
+
+    .listheader {
+      text-align: left;
+      text-decoration-color: #eaf6af;
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 10px;
+      background: linear-gradient(to bottom, #aac232 0%, #626a16 100%);
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      border-radius: 10px;
+    }
+
+    .navbar li {
+      display: inline;
+    } 
+
+    .navbar a {
+      text-decoration-color: rgb(0, 17, 255);
+      font-family: cursive;
+      font-size: 15px;
+      color: rgb(216, 214, 255);
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #0800ff;
+    }
+
+    @keyframes glow {
+      0% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #0f0, 0 0 15px #0f0;
+      }
+      100% {
+        text-shadow: 0 0 20px #fff, 0 0 30px #0f0, 0 0 40px #0f0;
+      }
+    }
+
+    .glowing {
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    .main-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      padding-bottom: 50px;
+    }
+    @media (max-width: 768px) {
+  .main-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box, .box-large {
+    width: 90% !important;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  audio {
+    width: 100%;
+  }
+}
+
+  </style>
+<body>
+
+  <marquee direction="right" scrollamount="8" class="text">
+    Welcome to my first.. really really first website!
+    <img src="https://gist.githubusercontent.com/s-shivangi/7b54ec766cf446cafeb83882b590174d/raw/8957088c2e31dba6d72ce86c615cb3c7bb7f0b0c/nyan-cat.gif" style="width: 200px; vertical-align: middle;">
+  </marquee>
+
+  <img src="Logo 3.png" class="logo" alt="logo" style="width: 900px;">
+  
+  <nav class="navbar glowing">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="artwork.html">Artwork</a></li>
+      <li><a href="links.html">Links</a></li>
+    </ul>
+  </nav>
+  <hr>
+
+  <h1 class="header">WELCOME TO MY BLOGS SITE!</h1>
+
+  <!--BLOG 1-->
+  <div class="container">
+    <div class="box box-large" style="width: 500px; height: 300px;">
+        <h1 class="blog-title">my first blog lol</h1>
+        <p class="blog-date">31/05/2025</p>
+        <br>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eligendi exercitationem animi quos modi dolorem iusto. Iusto eveniet iure, assumenda autem quae doloremque in atque numquam aliquam dolores voluptates explicabo?</p>
+    </div>
+
+  </div>
+
+  <!--FAKE ADS-->
+    <br>
+    <br>
+    <br>
+
+    <a href="https://www.youtube.com/watch?v=90vkulvZCCg"><img src="fakeadsrobux.jpg" style="width: 360px; height: 500;"></a>
+
+     <center><h3 class="text glowing">This website is still Under Construction!</h3>
+      <p class="text" style="font-size: 10px;">Mirorororo @ 2025. no copyright infringment intended, graphics belong to respective owners</center>
+
+
+
+</body>
